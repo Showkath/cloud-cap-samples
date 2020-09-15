@@ -2,7 +2,7 @@
 
 Find here a collection of samples for the [SAP Cloud Application Programming Model](https://cap.cloud.sap) organized in a simplistic [monorepo setup](samples.md#all-in-one-monorepo). &rarr; See [**Overview** of contained samples](samples.md)
 
-![](https://github.com/SAP-samples/cloud-cap-samples/workflows/CI/badge.svg)
+![](https://github.com/Showkath/cloud-cap-samples/workflows/CI/badge.svg)
 
 ### Preliminaries
 
@@ -16,7 +16,7 @@ Clone this repo as shown below, if you have [git](https://git-scm.com/downloads)
 otherwise [download as zip file](archive/master.zip).
 
 ```sh
-git clone https://github.com/sap-samples/cloud-cap-samples samples
+git clone https://github.com/Showkath/cloud-cap-samples samples
 cd samples
 ```
 
