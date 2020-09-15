@@ -15,10 +15,8 @@ entity Books : managed {
 entity Authors : managed {
   key ID : Integer;
   name   : String(111);
-  dateOfBirth  : Date;
-  dateOfDeath  : Date;
-  placeOfBirth : String;
-  placeOfDeath : String;
+  dateOfBirth  : Date;  
+  placeOfBirth : String;  
   books  : Association to many Books on books.author = $self;
 }
 

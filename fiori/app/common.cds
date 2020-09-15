@@ -114,10 +114,9 @@ annotate my.Authors with @(
 		LineItem:[
 			{Value: ID},
 			{Value: name},
-			{Value: dateOfBirth},
-			{Value: dateOfDeath},
+			{Value: dateOfBirth},			
 			{Value: placeOfBirth},
-			{Value: placeOfDeath},
+			
 		],
 	}
 );
@@ -148,10 +147,9 @@ annotate my.Authors with @(
 annotate my.Authors with {
 	ID @title:'{i18n>ID}' @UI.HiddenFilter;
 	name @title:'{i18n>Name}';
-	dateOfBirth @title:'{i18n>DateOfBirth}';
-	dateOfDeath @title:'{i18n>DateOfDeath}';
+	dateOfBirth @title:'{i18n>DateOfBirth}';	
 	placeOfBirth @title:'{i18n>PlaceOfBirth}';
-	placeOfDeath @title:'{i18n>PlaceOfDeath}';
+	
 }
 
 ////////////////////////////////////////////////////////////////////////////
